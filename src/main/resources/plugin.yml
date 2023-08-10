@@ -2,3 +2,5 @@ name: myplugin
 version: ${project.version}
 author: Your Name
 main: dev.jkm.myplugin.MyPlugin
+
+api-version: 1.14
