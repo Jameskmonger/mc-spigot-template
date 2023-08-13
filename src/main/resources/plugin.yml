@@ -1,4 +1,11 @@
-name: myplugin
+name: bedwarp
 version: ${project.version}
-author: Your Name
-main: dev.jkm.myplugin.MyPlugin
+author: jkm
+main: dev.jkm.bedwarp.BedWarpPlugin
+
+api-version: 1.14
+
+commands:
+  bedwarp:
+    description: Warp to your bed
+    usage: /bedwarp
